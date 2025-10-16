@@ -1,38 +1,181 @@
-.App {
-  text-align: center;
+*, *::before, *::after {
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  font-family: 'Poppins', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.semibold {
+  font-weight: 600;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.medium {
+  font-weight: 500;
+}
+
+.font-size-24 {
+  font-size: 24px;
+}
+
+.font-size-19 {
+  font-size: 19px;
+}
+
+.text-opacity-5 {
+  opacity: .5;
+}
+
+.d-block {
+  display: block;
+}
+
+.fiolet-light {
+  background-color: #E5EAFF;
+}
+
+.blue-light {
+  background-color: #DEEDFF;
+}
+
+.purple-light {
+  background-color: #E9E3FE;
+}
+
+button.fiolet-light:hover, button.blue-light:hover, button.purple-light:hover {
+  background-color: #b7c0eb;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal {
+  background: #ffffff;
+  border-radius: 8px;
+  min-width: 625px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.modal-header {
+  background-color: #526EFF;
+  padding: 20px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.icon-container > svg:hover {
+  opacity: .7;
+}
+
+.modal-body {
+  display: flex;
+  justify-content: center;
+  padding: 30px 40px;
+}
+
+.modal-content {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  gap: 20px;
+}
+
+.modal-content > .card {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  padding: 15px 0;
+  border-radius: 8px;
+  border: 1px solid #DBDEE3;
 }
 
-.App-link {
-  color: #61dafb;
+.card-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card-input-container > div {
+  display: flex;
+  gap: 20px;
+}
+
+.qiwi-input-container > div {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  padding: 18px 30px;
+  background-color: rgba(150, 157, 173, 0.1);
+  border: 1px solid rgba(219, 222, 227, 1);
+  border-radius: 8px;
+}
+
+.input-label {
+  margin-bottom: 5px;
+}
+
+input::placeholder {
+  color: rgb(174, 176, 181);
+  font-size: 17px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1;
+}
+
+#card-number {
+  width: 245px;
+}
+
+#card-date {
+  width: 138px;
+}
+
+#card-cvv {
+  width: 122px;
+}
+
+.card-holder-block {
+  display: block!important;
+  margin-top: 15px;
+}
+
+.card-holder-block > input {
+  width: 100%;
+}
+
+.button {
+  width: 100%;
+  padding: 18px;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+  color: #526EFF;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 15px;
+  transition: ease-in .2s;
+}
+
+input:focus {
+  outline: 1px solid #526EFF;
+  outline-offset: 1px;
 }
