@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/test-payment-modal/static/css/main.7dc62f4c.css",
+    "main.js": "/test-payment-modal/static/js/main.387a51ca.js",
+    "static/js/453.66ff7e60.chunk.js": "/test-payment-modal/static/js/453.66ff7e60.chunk.js",
+    "static/media/sbp-icon.svg": "/test-payment-modal/static/media/sbp-icon.5d4802af921c62cff2180b87c58f8ea9.svg",
+    "static/media/sber-pay-icon.svg": "/test-payment-modal/static/media/sber-pay-icon.e776ccc5cb5bf19270a7c93cc2d213fc.svg",
+    "index.html": "/test-payment-modal/index.html",
+    "static/media/card-icon.svg": "/test-payment-modal/static/media/card-icon.9a82d558d36e2dcc6cf439f4634733cc.svg",
+    "main.7dc62f4c.css.map": "/test-payment-modal/static/css/main.7dc62f4c.css.map",
+    "main.387a51ca.js.map": "/test-payment-modal/static/js/main.387a51ca.js.map",
+    "453.66ff7e60.chunk.js.map": "/test-payment-modal/static/js/453.66ff7e60.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7dc62f4c.css",
+    "static/js/main.387a51ca.js"
+  ]
+}
